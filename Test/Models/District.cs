@@ -1,0 +1,15 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Test.Models
+{
+    public class District
+    {
+        [Key]
+        public int Id { get; set; }
+        [Required]
+        [StringLength(60)]
+        public string Number { get; set; }
+        public virtual ICollection<Patient> Patients { get; set; } 
+        public virtual ICollection<Doctor> Doctors { get; set; }
+    }
+}
