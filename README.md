@@ -1,5 +1,5 @@
 # Test WebAPI Project
-Тестовое клиент-серверное приложение на ASP.NET WebAPI, реализующее базовые CRUD операции над таблицами Patients и Doctors. В качестве хранилища используется MS SQL Server.
+Тестовое клиент-серверное приложение на ASP.NET WebAPI, реализующее базовые CRUD операции над таблицами Patients и Doctors. Задействованы: ASP.NET Core, EF Core, LINQ. В качестве хранилища используется MS SQL Server.
 
 ## Перед запуском приложения
 
